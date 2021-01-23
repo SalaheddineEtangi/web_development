@@ -11,6 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0096c7;">
         <div class="container-fluid">
+          <a href="images/logo.PNG"><img src="images/logo.PNG" alt="logo Imane Oumelk"></a>
           <a class="navbar-brand" href="index.php">Acceuil</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

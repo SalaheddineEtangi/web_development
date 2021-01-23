@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0096c7;">
         <div class="container-fluid">
-          <img src="images/logo.PNG" alt="logo Imane Oumelk">
+        <a href="images/logo.PNG"><img src="images/logo.PNG" alt="logo Imane Oumelk"></a>
           <a class="navbar-brand" href="#">Acceuil</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,8 +42,10 @@
                 <div style="float: left; margin-right: 10px">
                     <img src="./images/imane_w_p.PNG" alt="Photo de profil WhatsApp de Imane Oumelk"/>
                 </div>
-                <h2 style="margin-bottom: 1px;">Imane Oumelk</h2>
-                <h3 style="color: #0096c7; margin-top: 1px;">Etudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement, à la recherche d'un Stage Ingénieur</h3>
+                <div style="margin: 10px;">
+                    <h2 style="margin-bottom: 1px;">Imane Oumelk</h2>
+                    <h3 style="color: #0096c7; margin-top: 1px;">Etudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement, à la recherche d'un Stage Ingénieur</h3>
+                </div>
             </p><br>
             <p id="description" class="anotherSpecialText" style="border-left: solid 5px #0096c7; padding:10px;">
                 <em>Je suis Imane Oumelk, étudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement (<strong>IHE</strong>), 
@@ -129,7 +131,7 @@
     </div>
     <div class="footer">Copyrights 2022, Imane Oumelk web site</div>
     <script>
-        var htmlvar = document.getElementById("description").innerHTML;
+
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
