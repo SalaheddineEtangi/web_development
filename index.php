@@ -117,11 +117,6 @@
                 <strong>Lecture des CVs &nbsp;</strong>CV de mon petit ami <a href="files/CV_Salah-eddine _Etangi.pdf" target="_blank" class="lien">Salah-eddine Etangi</a>.
             </p>
             <p>
-                <strong>Regarder YouTube &nbsp;</strong><br/>
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-98a02de9-f2c3-4776-8faf-d6147b799327"></div>
-            </p>
-            <p>
                 <strong>Musique &nbsp;</strong>C'est l'une de mes chansons préférées : <br/>
                 <audio controls>
                     <source src="media/bntelguiran.mp4">
