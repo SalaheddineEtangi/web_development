@@ -34,16 +34,18 @@
     </nav>
     <div style="min-height: 500px;" class="body">
     <?php
+          date_default_timezone_set('Europe/Paris');
           $nom; 
           $message; 
           $reseauSociaux;
           if(isset($_POST['nom']) && isset($_POST['message']) && isset($_POST['reseauxSociaux']) &&
                    $_POST['nom'] != "" && $_POST['message'] != "" && $_POST['reseauxSociaux'] != array() &&
                    $_POST['message'] != "Ajouter votre message ici" ){
+            $date = date('H:i');
             $nom = $_POST['nom'];
             $message = $_POST['message'];
             $reseauSociaux = $_POST['reseauxSociaux'];
-            echo '<span class="sender">'.$nom.'</span><br>'.$message.'<br>';
+            echo '<span class="sender">'.$nom.'</span><br>'.$message.' <span class="time">'.$date.'</span><br>';
             echo '<span class="info">envoyé sur : </span>';
             foreach($reseauSociaux as $reseauSocial){
                 echo '<span class="info">'.$reseauSocial.' </span>';
