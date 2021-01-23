@@ -4,4 +4,3 @@ function cacher(id){
 function afficher(id){
     document.getElementById(id).style.display = 'block';
 }
-
