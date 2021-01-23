@@ -6,8 +6,8 @@
     <meta name="Description" content="Le site web de Imane Oumelk">
     <meta name="Keywords" 
           content="Imane Oumelk, IHE, EHTP, Stage Ingénieur, Ingénieur d'Etat, Classes Préparatoires, Sciences-Mathématiques A,CV">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Imane Oumelk</title>
