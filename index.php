@@ -47,12 +47,16 @@
                     <h3 style="color: #0096c7; margin-top: 1px;">Etudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement, à la recherche d'un Stage Ingénieur</h3>
                 </div>
             </p><br>
-            <p id="description" class="anotherSpecialText" style="border-left: solid 5px #0096c7; padding:10px;">
-                <em>Je suis Imane Oumelk, étudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement (<strong>IHE</strong>), 
-                à l'Ecole Hassania des Travaux Publics (<strong>EHTP</strong>), 
-                à la recherche d'un Stage Ingénieur (<strong>SI</strong>) dans un bureau d'études 
-                d'une durée minimale de 6 semaines à partir du Juin 2021.</em>
-            </p>
+            <button onclick="cacher('description')" type="button" class="btn" style="margin: 10px; background-color:#a5a58d">Cachez la description</button>
+            <button onclick="afficher('description')" type="button" class="btn" style="margin: 10px; background-color:#0096c7">Afficher la description</button>
+            <div id="description">
+                <p class="anotherSpecialText" style="border-left: solid 5px #0096c7; padding:10px;">
+                    <em>Je suis Imane Oumelk, étudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement (<strong>IHE</strong>), 
+                    à l'Ecole Hassania des Travaux Publics (<strong>EHTP</strong>), 
+                    à la recherche d'un Stage Ingénieur (<strong>SI</strong>) dans un bureau d'études 
+                    d'une durée minimale de 6 semaines à partir du Juin 2021.</em>
+                </p>
+            </div>
             <h3 class="specialText">Formations</h3>
             <h4>Cycle Ingénieur d'Etat / <span class="specialText">Ecole Hassania des Travaux Publics (EHTP)</span> Casablanca</h4>
             <h5  class="anotherSpecialText">Depuis Septembre 2019</h5>
@@ -126,7 +130,12 @@
     </div>
     <div class="footer">Copyrights 2022, Imane Oumelk web site</div>
     <script>
-
+        function cacher(id){
+            document.getElementById(id).innerHTML = "";
+        }
+        function afficher(id){
+            document.getElementById(id).innerHTML = "<p class=\"anotherSpecialText\" style=\"border-left: solid 5px #0096c7; padding:10px;\"><em>Je suis Imane Oumelk, étudiante ingénieur en Ingénierie de l'Hydraulique et de l'Environnement (<strong>IHE</strong>), à l'Ecole Hassania des Travaux Publics (<strong>EHTP</strong>), à la recherche d'un Stage Ingénieur (<strong>SI</strong>) dans un bureau d'études d'une durée minimale de 6 semaines à partir du Juin 2021.</em></p>";
+        }
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
