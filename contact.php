@@ -6,7 +6,7 @@
     <title>Contactez moi</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">   
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0096c7;">
@@ -38,6 +38,11 @@
                 <b>Nom</b><br>
                 <input type="text" name="nom">
             </p>
+            <p>
+                <b>Email</b><br>
+                <input type="email" name="email" style="width: 350px;">
+            </p>
+            <p>
                 <b>Message</b><br>
                 <textarea name="message" style="width:30%; height:150px">Ajouter votre message ici</textarea>
             </p>
@@ -61,7 +66,7 @@
                 <input type="date">
             </p>
             <p>
-                <input type="submit">
+                <input type="submit" class="btn" style="background-color: #0096c7;">
             </p>
         </form>
     </div>
