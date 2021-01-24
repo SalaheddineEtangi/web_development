@@ -22,7 +22,7 @@
                 <a class="nav-link active" aria-current="page" href="contact.php">Contactez moi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Messages</a>
+                <a class="nav-link active" aria-current="page" href="#">Messages<span class="badge bg-danger">!</span></a>
               </li>
             </ul>
             <form class="d-flex">
