@@ -13,7 +13,7 @@
     <script src="javascript/javascript.js"></script>
     <title>Imane Oumelk</title>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0096c7;">
         <div class="container-fluid">
         <a href="images/logo.PNG"><img src="images/logo.PNG" alt="logo Imane Oumelk"></a>
@@ -27,7 +27,7 @@
                 <a class="nav-link active" aria-current="page" href="contact.php">Contactez moi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="messages.php">Messages<span class="badge bg-danger notification">!</span></a>
+                <a class="nav-link active" aria-current="page" href="messages.php">Messages</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -91,7 +91,13 @@
                     </tr>
                     <tr>
                         <td><i class="far fa-calendar-alt"></i></td>
-                        <td>20 ans</td>
+                        <td>
+                            <?php 
+                                $bday=new DateTime('10-04-2000');
+                                $age=$bday->diff(new DateTime);
+                                echo $age->y.' ans';
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td><i class="fab fa-font-awesome-flag"></i></td>

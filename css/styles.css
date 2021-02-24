@@ -43,7 +43,7 @@ img{
     margin: 10px;
 }
 .footer{
-    height: 100px;
+    height: 120px;
     background-color: #a5a58d;
     clear: both;
     padding: 10px;
@@ -58,7 +58,4 @@ img{
 }
 .info{
     color: #48cae4;
-}
-.notification{
-    margin-left: 2px;
 }

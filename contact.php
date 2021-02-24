@@ -6,7 +6,8 @@
     <title>Contactez moi</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">   
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="javascript/javascript.js"></script>   
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0096c7;">
@@ -22,7 +23,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Contactez moi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="messages.php">Messages<span class="badge bg-danger">!</span></a>
+                <a class="nav-link active" aria-current="page" href="messages.php">Messages</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -45,25 +46,6 @@
             <p>
                 <b>Message</b><br>
                 <textarea name="message" style="width:30%; height:150px">Ajouter votre message ici</textarea>
-            </p>
-            <p>
-                <b>Choisissez vos réseaux sociaux préférés</b><br>
-                <select name="reseauxSociaux[]" size="4" multiple="true">
-                  <option id="social_media_1" value="Facebook">Facebook</option>
-                  <option id="social_media_2" value="Instagram">Instagram</option>
-                  <option id="social_media_3" value="WhatsApp">WhatsApp</option>
-                  <option id="social_media_4" value="LinkedIn">LinkedIn</option>
-                  <option id="social_media_5" value="Gmail">Gmail</option>
-                </select>
-            </p>
-            <p>
-                <b>Envoyer le message</b><br>
-                <label><input type="radio" name="type_envoi" id="type_envoi_1" value="maintenant">Maintenant</label><br>
-                <label><input type="radio" name="type_envoi" id="type_envoi_2" value="Apres_une_heure">Après une heure</label>
-            </p>
-            <p>
-                <b>Prenez un RDV</b><br>
-                <input type="date">
             </p>
             <p>
                 <input type="submit" class="btn" style="background-color: #0096c7;">
